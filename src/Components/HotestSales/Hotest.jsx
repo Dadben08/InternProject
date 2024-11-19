@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Hotest.css"; // Update the CSS filename to match the component
 import img from '../../assets/Hand.png';
-import leftimage from '../../assets/left-image.png'
+
 ;
 const Hotest = () => {
   const [currentImage, setCurrentImage] = useState(0);
