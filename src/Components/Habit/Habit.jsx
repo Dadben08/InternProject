@@ -1,6 +1,6 @@
 import React from 'react'
 import './Habit.css'
-import leftimage from '../../assets/Leftimage.png'
+import leftimage from '../../assets/LeftImage.png'
 import vector from '../../assets/Vector-i.png'
 import group from '../../assets/Group.png'
 
