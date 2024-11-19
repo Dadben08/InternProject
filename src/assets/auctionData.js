@@ -1,8 +1,8 @@
-import image from './image.png'; 
-import image1 from './image1.png';
-import image2 from './image2.png'; 
-import image3 from './image3.png'; 
-import image6 from './image6.png';
+import image from './Image.png'; 
+import image1 from './Image1.png';
+import image2 from './Image2.png'; 
+import image3 from './Image3.png'; 
+import image6 from './Image6.png';
 
 const auctionData = [
   {
