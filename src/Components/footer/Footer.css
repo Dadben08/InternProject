@@ -36,6 +36,7 @@
     list-style: none;
     padding-top: 50%;
     margin-left: -40%;
+    color: grey;
 }
 
 .footcenter{
@@ -45,7 +46,46 @@
 
 .footcenter ul{
     flex-direction: column;
-    margin-top: -30%;
-    margin-left: 10%;
+    margin-top: -50%;
+    margin-left: -7%;
+    font-size: 18px;
+}
+
+
+.footcenter span button{
+    width: 145px;
+    height: 52px;
+    border-radius: 12px;
+    background-color: #2A27C9;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20.18px;
+    letter-spacing: 0.2px;
+}
+
+.footcenter span i{
+    font-size: 20px;
     
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+.input span{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-radius: 12px;
+    align-items: center;
+    margin-top: 20%;
+
+}
+
+.input span input{
+    width: 98%;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
 }

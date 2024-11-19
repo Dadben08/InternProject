@@ -22,7 +22,7 @@ const Footer = () => {
                 <li>Community</li>
             </ul>
             <span>
-                <button>My account</button>
+                <button>My account</button><br />
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-linkedin"></i>
                 <i class="fa-brands fa-github"></i>
@@ -30,12 +30,11 @@ const Footer = () => {
                 <i class="fa-brands fa-instagram"></i>
             </span>
         </div>
-        <div>
+        <div className='input'>
             <p>Lorem ipsum dolor sit amet consectetur, <br />adipisicing elit. Aspernatur doloribus nemo fugiat <br /> accusamus? Debitis,
                  a necessitatibus? Voluptatibus, .</p>
                  <span>
                  <input type="text" name='sign in' placeholder='newsletter'/>
-                 <h5>Sign in</h5>
                  </span>
                  
         </div>
