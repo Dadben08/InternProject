@@ -1,0 +1,55 @@
+.g-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #070816;
+    border: none;
+    color: white;
+    height: 100vh;
+    padding: 30px 30px;
+}
+
+.g-container p{
+    width: 263px;
+    height: 18px;
+    color: #7780A1;
+    
+}
+
+.g-container h1{
+    width: 590px;
+    height: 192px;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.2px;
+}
+
+.left .start{
+    color: white;
+    background:linear-gradient(180deg, #4745D0 100%, #2A27C9 100%);
+    border: none;
+}
+
+
+.g-container button{
+    border: 1px solid #ffffff43;
+    background-color: transparent;
+    cursor: pointer;
+    width: 144px;
+    height: 52px;
+    color: #7780A1;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add hover effects */
+}
+
+.g-container .p2{
+    margin-bottom: 10%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+}
+

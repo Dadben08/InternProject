@@ -1,0 +1,66 @@
+.H-container{
+    background: #060714;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.H-container .right{
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.H-container .left img{
+    width: 684px;
+    height: 616px;
+    border-radius: 12px;
+}
+
+.right span{
+    display: flex; 
+    justify-content: space-evenly;
+    margin-left: -90px;
+}
+
+.right span h6{
+    font-size: 20px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+}
+
+.right button{
+    width: 144px;
+    height: 52px;
+    border-radius: 12px;
+    gap: 10px;
+    border: 2px solid #262840;
+}
+
+.right .get{
+    background: linear-gradient( #4745D0, #2A27C9);
+    color: white;
+    border: none;
+}
+
+.right h1{
+    width: 580px;
+    height: 48px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.2px;
+}
+.right p{
+    color: #7780A1;
+    margin-bottom: -7%;
+}
+
+.right h5{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #7780A1;
+    margin-top: 25%;
+}

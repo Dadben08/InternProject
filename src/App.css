@@ -1,0 +1,27 @@
+/* App.css */
+
+/* Parent container for shared background */
+.background-wrapper {
+  width: 100%;
+  height: 95vh; /* Covers header (15vh) + hero (80vh) */
+  background: url('/src/assets/Background.png') no-repeat center/cover;
+  color: #ffffff;
+  background-color:  rgb(6,7,22);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+
+
+/* Hero styles */
+.hero {
+  
+  height: 100vh; /* Allocates space for the hero */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}

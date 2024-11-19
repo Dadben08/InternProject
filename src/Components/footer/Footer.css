@@ -1,0 +1,51 @@
+.f-container{
+    background: #060714;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Reduced spacing */
+    
+    
+}
+
+.foot{
+    border-radius: 12px;
+    margin: 20px;
+    background: #060714;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Reduced spacing */
+    padding: 10px;
+    border: 2px solid grey;
+    color: white;
+    width: 80%;
+    height: 30vh;
+    
+}
+
+
+.f-container .log{
+    border-right:  2px solid grey;
+    
+}
+
+.foot ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 50%;
+    margin-left: -40%;
+}
+
+.footcenter{
+    border-right: 2px solid grey; 
+    width: 30%;
+}
+
+.footcenter ul{
+    flex-direction: column;
+    margin-top: -30%;
+    margin-left: 10%;
+    
+}

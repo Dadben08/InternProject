@@ -1,0 +1,83 @@
+/* General Container Styling */
+.hotest-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Reduced spacing */
+    padding: 20px;
+    background: #060714;
+    color: white;
+  }
+  
+  /* Card Styling */
+  .hotest-card {
+    border: 1px solid #0b0c20;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+  .hotest-card> :nth-child(2){
+    background: linear-gradient( t#060714, #FFFFFF1A, #FFFFFF00);
+
+  }
+
+
+
+  .hotest-image {
+    width: 80%;
+    line-height: 150% !important;
+    border-radius: 20px;
+  }
+  
+  .hotest-content {
+    padding: 15px;
+  }
+  
+  .hotest-button {
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hotest-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Slider Buttons */
+  .hotest-slider {
+    position: relative;
+  }
+  
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .slider-button.left {
+    left: 10px;
+  }
+  
+  .slider-button.right {
+    right: 10px;
+  }
+  
+  .slider-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
